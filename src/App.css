@@ -1,0 +1,83 @@
+.App {
+    text-align: left;
+}
+
+.App-header {
+    background-color: #222;
+    height: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.App-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.App-title{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-product button{
+    background-color: #a8b3c0;
+    border-color: #a8b3c0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.App-sidebar-nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.App-sidebar-nav a:hover{
+    font-weight: bold; 
+}
+
+.App-sidebar-nav a:active{
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+.App-sidebar-nav a.active {
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+

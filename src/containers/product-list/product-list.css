@@ -1,0 +1,72 @@
+.box-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App-product_list {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.product_list_item {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    border: 1px solid rgba(116, 108, 102, 0.507);
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.product_list_item p {
+    font-size: 0.9em;
+    line-height: 21px;
+    margin: 0;
+}
+
+.add-to-cart-btn {
+    margin-top: 10px;
+}
+
+.cartListControls{
+    margin: 0 auto;
+}
+
+.product_list_item button {
+    color: #fff;
+    background-color: #a8b3c0;
+    border-color: #a8b3c0;
+    display: inline-block;
+    font-weight: 400;
+    padding: .175rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+select {
+    display: block;
+    width: 50%;
+    height: 30px;
+    text-align: start;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    background-color: white;
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    border-image: initial;
+}
